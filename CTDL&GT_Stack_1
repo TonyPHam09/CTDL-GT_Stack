@@ -1,1 +1,36 @@
+//https://viblo.asia/p/ngan-xep-va-hang-doi-stack-queue-yMnKM6MQZ7P
+// Tạo một cấu trúc ngăn xếp là một vector có kiểu phần tử type.
+typedef vector < {type} > stack_type;
 
+// Khởi tạo ngăn xếp rỗng.
+void create_stack(stack_type &st)
+{
+    st.resize(0);    
+}
+
+// Kiểm tra ngăn xếp có rỗng không.
+bool is_empty(stack_type &st)
+{
+    return st.empty();
+}
+
+// Trả ra phần tử ở đỉnh ngăn xếp nếu tồn tại.
+{type} get_top(stack_type &st)
+{
+    if (!st.empty())
+        return st.elements.back();
+    else
+        {Báo_lỗi_ngăn_xếp_rỗng};
+}
+
+// Đẩy một phần tử vào ngăn xếp.
+void push(stack_type &st, {type} x)
+{
+    stack.push_back(x);
+}
+
+// Lấy ra phần tử ở đỉnh ngăn xếp.
+void pop(stack_type &st)
+{
+    return st.pop_back();
+}
